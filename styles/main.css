@@ -1,0 +1,257 @@
+body,
+html {
+  font-family: "Roboto", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #7f8286;
+}
+
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.container {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* upperhead */
+
+.upperhead {
+  background: #f5f7fa;
+  width: 100%;
+  height: 30px;
+}
+
+.upperhead-menu {
+  display: flex;
+  flex-wrap: wrap;
+  color: #a5acb8;
+  justify-content: flex-start;
+}
+
+.menuitem {
+  margin-left: 30px;
+}
+
+.upperhead-loggin {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  margin-right: 15px;
+  margin-left: 15px;
+  color: #5e5f5f;
+}
+
+/* LOGOHEAD */
+
+.logohead {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  margin-left: 15px;
+  width: 120px;
+  background-image: url("../img/logo.png");
+  background-repeat: no-repeat;
+  height: 50px;
+  background-size: contain;
+  background-position: center;
+}
+
+.cart {
+  width: 300px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.cart-image {
+  width: 50px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-info {
+  font-size: 8px;
+  margin-top: 18px;
+  margin-left: -5px;
+}
+
+/* SEARCHBAR */
+
+.searchbar {
+  margin-top: 10px;
+  background: #ffaf1e;
+  height: 50px;
+  width: 100%;
+}
+
+.searchbarspec {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+select {
+  font: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  background: #ffaf1e;
+  border: none;
+  color: white;
+}
+
+select:hover {
+  background: #ffc762;
+}
+
+input {
+  font: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  border: none;
+  width: 500px;
+}
+
+button {
+  height: 30px;
+  font: inherit;
+  letter-spacing: inherit;
+  word-spacing: inherit;
+  border: 1px solid white;
+  border-radius: 4px;
+  color: white;
+  background: #ffaf1e;
+}
+
+button:hover {
+  background: #ffc762;
+}
+
+/* MAINCONTENT */
+
+.maincontent {
+  margin-top: 10px;
+  width: 800px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.navbar {
+  width: 25%;
+  height: 800px;
+}
+
+.navbar input {
+  width: 100%;
+}
+
+.navitem {
+  margin: 5px;
+  padding: 2px 8px;
+  min-height: 10px;
+  background: #f5f7fa;
+  border: 1px solid #d5d6d8;
+  border-radius: 4px;
+  font-size: small;
+  color: #7f8286;
+}
+
+.navitem:hover {
+  background: #fbfcfc;
+  color: #66686b;
+}
+
+.itemlist-section {
+  width: 75%;
+  height: 800px;
+}
+
+.path {
+  font-size: small;
+  color: #7f8286;
+  padding: 5px;
+  margin-left: 20px;
+}
+
+.item-filter {
+  display: flex;
+  justify-content: space-between;
+}
+
+.selectedgroup {
+  margin: 10px;
+}
+
+.sort {
+  margin-top: 10px;
+}
+
+.item {
+  border-radius: 4px;
+  border: 1px solid rgb(117, 113, 113);
+  display: flex;
+  justify-content: center;
+  font-size: small;
+}
+
+.itemimage {
+  margin-left: 10px;
+  width: 20%;
+  background-image: url("../img/HIMARS.jpeg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.iteminfo {
+  width: 80%;
+  margin-left: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.itemdescription {
+  width: 50%;
+}
+
+.itemprice {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  text-align: center;
+  font-size: x-small;
+}
+
+.buying {
+  width: 25%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-items: center;
+}
