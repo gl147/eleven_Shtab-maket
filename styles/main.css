@@ -128,12 +128,16 @@ select:hover {
   background: #ffc762;
 }
 
+.serchfield {
+  width: 65%;
+}
+
 input {
   font: inherit;
   letter-spacing: inherit;
   word-spacing: inherit;
   border: none;
-  width: 500px;
+  width: 100%;
 }
 
 button {
@@ -145,6 +149,7 @@ button {
   border-radius: 4px;
   color: white;
   background: #ffaf1e;
+  padding: 5px;
 }
 
 button:hover {
@@ -254,4 +259,87 @@ button:hover {
   align-items: center;
   flex-wrap: wrap;
   justify-items: center;
+}
+
+@media screen and (max-width: 800px) {
+  .logo {
+    margin-left: 60px;
+  }
+
+  .upperhead {
+    display: none;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+  .searchbar {
+    height: 150px;
+  }
+
+  .searchbarspec {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .sort {
+    width: 80%;
+  }
+
+  .serchfield {
+    width: 80%;
+  }
+
+  .searchbutton {
+    width: 80%;
+  }
+
+  .item {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .itemimage {
+    margin-top: 10px;
+    height: 200px;
+    width: 100%;
+  }
+
+  .iteminfo {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .itemdescription {
+    width: 100%;
+  }
+
+  .itemprice {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .buying {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .trashinfo {
+    display: none;
+  }
+
+  .buying {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .buying button {
+    height: 40px;
+    width: 80%;
+  }
 }
